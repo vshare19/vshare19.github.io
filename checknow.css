@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+body{
+    color:  #fff;
+    width: 100%;
+
+}
+
+.choice-container{
+    width: 1 rem;
+    display: flex;
+    margin-bottom: 0.8rem;
+    border-radius: 4px;
+    background: transparent linear-gradient(53deg, #76C2EC 0%, #048BFC 100%) 0% 0% ;
+    font-size: 3rem;
+
+
+}
+
+h1{
+    width: 100%;
+}
+
+h2{
+    width: 100%
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(6, 103, 247, 0.5);
+    transform: scale(1.02);
+    transition: transform 100ms;
+    width: 100%;
+  
+}
+
+.choice-prefix{
+    padding: 2rem 2.5rem;
+    color: white;
+
+}
+
+.choice-text{
+    padding: 2rem;
+    width: 100%;
+
+}
+
+.correct{
+        background: linear-gradient(32deg, rgba(11,233,36) 0%, rgb(41,232,111) 100%);
+}
+
+.incorrect{
+    
+       background: linear-gradient(32deg, rgba(11,233,36) 0%, rgb(41,232,111) 100%);
+}
+
+#hud{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hud-prefix{
+
+    text-align: center;
+    font-size: 2rem;
+    width: 100%
+
+}
+
+.hud-main-text{
+    text-align: center;
+    color: #fff;
+    font-size: xx-small;
+    width: 100%
+
+}
+
+#progressBar{
+    width: 100%;
+    height: 4rem;
+    border: 0.2rem solid #048BFC;
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+    align-content: center;
+    text-align: center;
+}
+
+#progressBarFull{
+    height: 100%;
+    background: #048BFC;
+    width: 0%;
+}
+
+@media screen and (max-width: 768px){
+    .choice-container{
+        width: 100%;
+    }
+}
+
