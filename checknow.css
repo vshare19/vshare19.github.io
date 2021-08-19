@@ -61,9 +61,7 @@ h2{
 
 #hud{
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-
+    display: inline-block;
 }
 
 .hud-prefix{

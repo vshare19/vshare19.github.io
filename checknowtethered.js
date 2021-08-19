@@ -26,7 +26,7 @@ let questions = [
     },
 
     {
-        question: 'Do you have a fully electric or eligible plug-in hybrid vehicle?',
+        question: 'Do you own, lease (for more than 6 months), or have ordered a fully electric or eligible plug-in hybrid vehicle?',
         choice1:  "Yes",
         choice2:  "No", 
         answer:   1,
